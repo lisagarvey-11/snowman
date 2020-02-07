@@ -4,8 +4,8 @@ $(document).ready(function() {
   });
 
   $(".clickable").click(function() {
-    $(".snowman-showing").toggle();
-    $(".snowman-hidden").toggle();
+    $(".snowman-showing").fadeToggle();
+    $(".snowman-hidden").fadeToggle();
   });
 });
 
